@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPV Media Player - Official Download (4K & Full HD)</title>
+    <meta name="description" content="Download UPV Media Player - Your personal desktop media player with multi-file support, advanced search, and smooth playback for videos, pictures, and audio.">
+    <meta name="keywords" content="UPV Media Player, VLC alternative, 4K media player, HD media player, desktop media player, video player for windows, audio player, Harry Chris">
+    <meta name="author" content="Harry Chris - Karachi, Pakistan">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0b0b0b;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .main-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            background: #161616;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+            max-width: 1000px;
+            width: 100%;
+            border: 1px solid #222;
+            gap: 40px;
+        }
+        .info-section {
+            flex: 1;
+            text-align: left;
+        }
+        .info-section h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .info-section h2 {
+            font-size: 18px;
+            color: #3b82f6;
+            margin-bottom: 15px;
+        }
+        .info-section p {
+            color: #cccccc;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        .developer-info {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #888888;
+            border-top: 1px solid #262626;
+            padding-top: 15px;
+        }
+        .action-section {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .logo {
+            font-size: 40px;
+            color: #3b82f6;
+            text-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
+            margin-bottom: 10px;
+        }
+        .btn {
+            width: 100%;
+            padding: 14px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            transition: background 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            display: inline-block;
+        }
+        .feedback-btn {
+            background-color: #374151;
+            color: white;
+        }
+        .feedback-btn:hover {
+            background-color: #4b5563;
+        }
+        .download-btn {
+            background-color: #2563eb;
+            color: white;
+        }
+        .download-btn:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-2px);
+        }
+        @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+            }
+            .action-section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <main class="main-container">
+        <!-- Left Side: Information Section (Screen Reader friendly focus) -->
+        <section class="info-section" tabindex="0">
+            <h1>UPV Media Player</h1>
+            <h2>Your Personal Media Player</h2>
+            <p>UPV Media Player versions are available on this website in two formats: 4K and Full HD. Both versions share identical high-performance features.</p>
+            <p><strong>Core Features:</strong></p>
+            <p>• Multi-file selection support using the open button, and ability to set it as your default media application.</p>
+            <p>• Smooth playback for videos, pictures, and audio files.</p>
+            <p>• Built-in advanced search box: if multiple items are selected, simply type the name and press Enter to instantly access and play your desired file.</p>
+            
+            <div class="developer-info">
+                <p><strong>Developer:</strong> Harry Chris (ہیرئی کرِس)</p>
+                <p><strong>Location:</strong> Karachi, Pakistan</p>
+            </div>
+        </section>
+
+        <!-- Right Side: Logo and Action Buttons -->
+        <aside class="action-section">
+            <!-- Glowing Logo Icon -->
+            <div class="logo" aria-label="UPV Logo">⚡</div>
+
+            <!-- Feedback Button linked to correct Gmail -->
+            <a href="https://github.com/harrychris000111-del/upv-downloads/issues" class="btn feedback-btn">Send Feedback</a>
+
+            <!-- 4K Version Download Button -->
+            <a href="https://github.com/harrychris000111-del/upv-downloads/releases/latest/download/UPV-4K.exe" class="download-btn btn">Download 4K Version</a>
+
+            <!-- Full HD Version Download Button -->
+            <a href="https://github.com/harrychris000111-del/upv-downloads/releases/latest/download/UPV-HD.exe" class="download-btn btn">Download Full HD Version</a>
+        </aside>
+    </main>
+
+</body>
+</html>
