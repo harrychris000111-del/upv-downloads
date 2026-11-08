@@ -105,6 +105,13 @@
             background-color: #1d4ed8;
             transform: translateY(-2px);
         }
+        .download-note {
+            width: 100%;
+            color: #c7c7c7;
+            font-size: 12px;
+            line-height: 1.5;
+            text-align: left;
+        }
         @media (max-width: 768px) {
             .main-container {
                 flex-direction: column;
@@ -139,14 +146,16 @@
             <!-- Glowing Logo Icon -->
             <div class="logo" aria-label="UPV Logo">⚡</div>
 
-            <!-- Feedback Button linked to correct Gmail -->
-            <a href="https://github.com/harrychris000111-del/upv-downloads/issues" class="btn feedback-btn">Send Feedback</a>
+            <!-- Opens a Gmail draft addressed to the developer -->
+            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=harrychris000111%40gmail.com&amp;su=UPV%20Media%20Player%20Feedback" class="btn feedback-btn">Send Feedback</a>
 
             <!-- 4K Version Download Button -->
             <a href="https://github.com/harrychris000111-del/upv-downloads/releases/latest/download/UPV-4K.exe" class="download-btn btn">Download 4K Version</a>
 
             <!-- Full HD Version Download Button -->
             <a href="https://github.com/harrychris000111-del/upv-downloads/releases/latest/download/UPV-HD.exe" class="download-btn btn">Download Full HD Version</a>
+
+            <p class="download-note">Downloads are hosted on GitHub. Windows may show a security warning because these installers are not digitally signed. The browser may also ask you to confirm this new download.</p>
         </aside>
     </main>
 
